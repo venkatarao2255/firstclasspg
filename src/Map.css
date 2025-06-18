@@ -1,0 +1,34 @@
+.map-section {
+  background-color: #0d1117;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.map-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #facc15;
+}
+
+.map-address {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #d1d5db;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
