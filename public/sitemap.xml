@@ -9,37 +9,37 @@
   </url>
 
   <url>
-    <loc>https://firstclasspg.in/#amenities</loc>
+    <loc>https://firstclasspg.in/amenities</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://firstclasspg.in/#contact</loc>
+    <loc>https://firstclasspg.in/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://firstclasspg.in/#gallery</loc>
+    <loc>https://firstclasspg.in/gallery</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://firstclasspg.in/#map</loc>
+    <loc>https://firstclasspg.in/map</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://firstclasspg.in/#ratings</loc>
+    <loc>https://firstclasspg.in/ratings</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://firstclasspg.in/#room-types</loc>
+    <loc>https://firstclasspg.in/room-types</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
