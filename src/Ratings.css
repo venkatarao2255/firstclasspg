@@ -1,0 +1,13 @@
+.ratings-section {
+  background-color: #0f172a;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ratings-iframe-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.2);
+}

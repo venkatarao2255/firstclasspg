@@ -10,26 +10,26 @@ const RoomTypes = () => {
         {/* Double Sharing Room */}
         <div className="room-card">
           <img
-            src="https://res.cloudinary.com/domfamgtf/image/upload/v1750127178/KK2_icjaj2.jpg"
-            alt="Double Sharing Room"
+            src="https://res.cloudinary.com/domfamgtf/image/upload/v1750051661/what2_ppclwe.jpg"
+            alt="Twin Sharing Room"
             className="room-image"
           />
-          <h3>Double Sharing Room</h3>
+          <h3>Single Sharing Room</h3>
           <p>
-            Comfortable room shared by two individuals. Includes personal bed, locker, desk, and high-speed Wi-Fi.
+            A private room offering complete comfort and personal space. Includes a dedicated bed, wardrobe, study desk, and high-speed Wi-Fi,perfect for working professionals who value privacy.
           </p>
         </div>
 
         {/* Triple Sharing Room */}
         <div className="room-card">
           <img
-            src="https://res.cloudinary.com/domfamgtf/image/upload/v1750223570/WhatsApp_Image_2025-06-16_at_11.23.02_2bb2acac_q3fges.jpg"
-            alt="Triple Sharing Room"
+            src="https://res.cloudinary.com/domfamgtf/image/upload/v1750127178/KK2_icjaj2.jpg"
+            alt="Twin Sharing Room"
             className="room-image"
           />
-          <h3>Triple Sharing Room</h3>
+          <h3>Twin Sharing Room</h3>
           <p>
-            Spacious room shared by three. Includes individual beds, wardrobes, shared study space, and full access to amenities.
+           Designed for two residents, this room provides ample space and comfort with individual beds, storage units, a shared study area, and seamless access to all modern amenities.
           </p>
         </div>
       </div>

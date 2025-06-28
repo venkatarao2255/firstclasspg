@@ -1,3 +1,4 @@
+/* Main Hero Section */
 .hero-section {
   position: relative;
   min-height: 100vh;
@@ -18,18 +19,19 @@
   height: 100%;
 }
 
-/* Content */
+/* Content inside Hero */
 .hero-content {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 150px 20px 50px;
+  padding: 150px 20px 60px;
 }
 
 .hero-content h1 {
   font-size: 2.8rem;
   margin-bottom: 20px;
   font-weight: bold;
+  line-height: 1.3;
 }
 
 .hero-content h1 span {
@@ -43,40 +45,43 @@
   color: #ddd;
 }
 
+/* Buttons */
 .hero-buttons {
   display: flex;
-  justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
 }
 
 .hero-button {
   background-color: #facc15;
   color: black;
-  padding: 12px 24px;
+  padding: 12px 28px;
+  font-size: 1rem;
   font-weight: bold;
-  border: none;
-  border-radius: 10px;
+  border-radius: 9999px; /* Pill shape */
   text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.hero-button.secondary {
-  background-color: transparent;
-  border: 2px solid #facc15;
-  color: #facc15;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(250, 204, 21, 0.3);
 }
 
 .hero-button:hover {
   background-color: #fbbf24;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(250, 204, 21, 0.4);
 }
 
-.hero-button.secondary:hover {
-  background-color: #facc15;
-  color: black;
+/* Scroll Hint Text */
+.scroll-hint {
+  padding-top: 80px; /* pushes text further down */
+  font-size: 1.1rem;
+  color: #facc15;
+  animation: fadeInUp 1s ease-out 1s forwards;
+  opacity: 0;
 }
+
 
 /* Navigation - Logo Only */
 .hero-nav {
@@ -144,5 +149,25 @@
 
 /* Smooth scroll */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .scroll-hint {
+    font-size: 1rem;
+  }
 }

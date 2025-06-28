@@ -29,11 +29,11 @@ const Gallery = () => (
       {/* Image 3 */}
       <div className="gallery-item">
         <img
-          src="https://res.cloudinary.com/domfamgtf/image/upload/v1750048740/WhatsApp_Image_2025-06-16_at_09.32.39_bd53b41e_knllft.jpg"
+          src="https://res.cloudinary.com/domfamgtf/image/upload/v1751090737/washroom_ghlnvh.jpg"
           alt="Lobby"
           className="gallery-media"
         />
-        <div className="gallery-caption">Premium Lobby</div>
+        <div className="gallery-caption">Washroom</div>
       </div>
 
       {/* Video 1 */}

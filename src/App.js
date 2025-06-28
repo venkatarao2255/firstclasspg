@@ -6,6 +6,8 @@ import RoomTypes from './components/RoomTypes';
 import Gallery from './components/Gallery';
 import Map from './components/Map';
 import Contact from './components/Contact';
+import Ratings from './components/Ratings';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       <RoomTypes/>
       <Gallery/>
       <Map/>
+      <Ratings/>
       <Contact />
   
     </div>
