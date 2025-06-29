@@ -39,7 +39,7 @@ const Gallery = () => (
             alt="Triple Sharing Room"
             className="gallery-media"
           />
-          <div className="gallery-caption">Triple Sharing Room</div>
+          <div className="gallery-caption">Single Sharing Room</div>
         </div>
 
         {/* Image 3 */}

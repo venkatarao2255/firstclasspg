@@ -39,7 +39,7 @@ const RoomTypes = () => {
           {/* Triple Sharing Room */}
           <div className="room-card">
             <img
-              src="https://res.cloudinary.com/domfamgtf/image/upload/v1750127178/KK2_icjaj2.jpg"
+              src="https://res.cloudinary.com/domfamgtf/image/upload/v1751161625/newpic_lcydl2.jpg"
               alt="Twin Sharing Room"
               className="room-image"
             />
